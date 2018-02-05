@@ -128,12 +128,7 @@ This Argument is used to name the result file. If not set, the peakfile name wil
 
 **--info EXPREINFO**
 
-specify the geneID, up/down status and statistical values column of your expression data. NOTE: use a comma as an connector. for example: 1,2,6 means geneID in the 1st column, logFC in 2nd column and FDR in 6
-
-# th
- column. DEFAULT:1,2,6 for LIMMA; 2,10,13 for Cuffdiff and 1,2,3 for BETA specific format. You&#39;d better set
-
-it based on your exact expression file, it is required when –k=O.
+specify the geneID, up/down status and statistical values column of your expression data. NOTE: use a comma as an connector. for example: 1,2,6 means geneID in the 1st column, logFC in 2nd column and FDR in 6th column. DEFAULT:1,2,6 for LIMMA; 2,10,13 for Cuffdiff and 1,2,3 for BETA specific format. You&#39;d better set it based on your exact expression file, it is required when –k=O.
 
 -o OUTPUT, --output=OUTPUT
 
